@@ -1,0 +1,21 @@
+.header {
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+
+}
+
+.logo {
+    @include center-v();
+    padding-left: 25px;
+
+    &__image {
+        width: 50px;
+    }
+
+    &__link {
+        @include center-v();
+    }
+}

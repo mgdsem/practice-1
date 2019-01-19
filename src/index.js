@@ -1,1 +1,1 @@
-console.log('connected');
+import './styles/main.scss';
