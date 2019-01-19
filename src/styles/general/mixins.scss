@@ -2,3 +2,9 @@
     display: flex;
     align-items: center;
 }
+
+@mixin at-medium {
+    @media (min-width: 640px) {
+        @content;
+    }
+}
