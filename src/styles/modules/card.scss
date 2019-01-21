@@ -1,0 +1,8 @@
+.card {
+    @include center();
+
+    width: 500px;
+    height: 600px;
+    margin: 150px auto 0 auto;
+    background-color: $white;
+}
