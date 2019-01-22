@@ -1,14 +1,15 @@
 .list {
     position: relative;
     width: 200px;
-    background-color: gray;
     min-height: 300px;
-    // overflow: hidden;
+    overflow: hidden;
 
     &__item {
         position: absolute;
         right: -150px;
         padding: 10px 0;
+        opacity: 0;
+        transition: right 0.3s ease, opacity 1s ease;
 
         &--0 {
             top: 0;
@@ -24,7 +25,8 @@
 
         &--is-visible {
             right: 50%;
-            transform: translateX(-50%);
+            transform: translateX(50%);
+            opacity: 1;
         }
     }
 }

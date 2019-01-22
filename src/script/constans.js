@@ -3,3 +3,6 @@ export const SENTENCES = [
     "Tata przyniosl kolate",
     "Mama jest zajebista"
 ];
+
+export const SHOW = 'Show';
+export const HIDE = 'Hide';
