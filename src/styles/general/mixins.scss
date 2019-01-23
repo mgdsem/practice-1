@@ -3,6 +3,12 @@
     align-items: center;
 }
 
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @mixin at-medium {
     @media (min-width: 640px) {
         @content;

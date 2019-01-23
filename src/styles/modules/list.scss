@@ -1,0 +1,32 @@
+.list {
+    position: relative;
+    width: 200px;
+    min-height: 300px;
+    overflow: hidden;
+
+    &__item {
+        position: absolute;
+        right: -150px;
+        padding: 10px 0;
+        opacity: 0;
+        transition: right 0.3s ease, opacity 1s ease;
+
+        &--0 {
+            top: 0;
+        }
+
+        &--1 {
+            top: 40px;
+        }
+
+        &--2 {
+            top: 80px;
+        }
+
+        &--is-visible {
+            right: 50%;
+            transform: translateX(50%);
+            opacity: 1;
+        }
+    }
+}
